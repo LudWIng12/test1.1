@@ -5,7 +5,8 @@
     $password='';
     $bd='tienda';
      
-    //conexion a la base de datos
+    
+    
     $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 
     if ($conexion->connect_errno){
